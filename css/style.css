@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #e2ecff;
+    justify-content: space-around;
+    box-shadow: 1px 3px #ddd;
+}
+.logo {
+    padding: 20px 20px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+.nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.nav-menu ul li {
+    text-decoration: none;
+    margin: 20px 20px;
+}
+a {
+    text-decoration: none;
+    color: #3C64B1;
+}
+.nav-menu ul li a {
+    color: #373F41;
+}
+.nav-menu ul li a:hover {
+    color: #3C64B1;
+    border-bottom: 1px solid #3C64B1;
+    
+}
+.btn-default {
+    display: flex;
+    align-items: center;
+}
+.btn-default p {
+    color: #3C64B1;
+}
+.btn-default p a {
+    color: #3C64B1;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #3C64B1;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+.btn :hover {
+    opacity: 0.7;
+}
+.register p {
+    margin-right: 10px;
+}
+
+/* SECTION SIMPLIFY */
+
+.simplify {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    background-image: url('../assets/images/light/text\ center/bg.png');
+    padding: 80px 0;
+}
+.text-center {
+    padding: 20px 0;
+}
+.text-center h1 {
+    font-size: 36px;
+    line-height: 1.4;
+    letter-spacing: 1.8px;
+
+    text-align: center;
+
+    color: #373F41;
+}
+.text-center p {
+    font-size: 18px;
+    letter-spacing: 1.8;
+    text-align: center;
+    color: #737B7D;
+}
+.free-trial {
+    margin-top: 40px;
+    padding: 10px 10px;
+    border: 1px solid #3C64B1;
+}
+
+/* SECTION 3 */
+.shipping {
+    padding: 30px 0;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.card-item {
+    padding: 20px 120px;
+}
+.card-content p {
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    text-align: center;
+}
+.card-icon, .card-title, .card-discovery {
+    padding: 20px 20px;
+}
+.border-text{
+    border: 1px solid #3C64B1;
+}
+.border-text .card-title {
+    padding-top: 0;
+}
+/* SECTION 4 */
+.row {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+.col {
+    min-width: 50%;
+    text-align: center;
+}
+/* SECTION 5 */
+
+.fostering, .primary-action {
+    margin-top: 60px;
+}
+
+/* SECTION 6 */
+.footer {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.card-item-footer {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card-footer-title {
+    text-align: center;
+    padding: 20px 0;
+}
+.card-footer-content {
+    text-align: center;
+}
