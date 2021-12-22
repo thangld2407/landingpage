@@ -121,10 +121,11 @@ a {
 .card-content p {
     letter-spacing: 0.2px;
     line-height: 20px;
-    text-align: center;
+    text-align: left;
+    color: gray;
 }
 .card-icon, .card-title, .card-discovery {
-    padding: 20px 20px;
+    padding: 60px 20px 20px 0px;
 }
 .border-text{
     border: 1px solid #3C64B1;
@@ -142,12 +143,45 @@ a {
     min-width: 50%;
     text-align: center;
 }
+.primary-action, .fostering{
+    margin: 15%;
+}
+.title ,.content {
+    width: 500px ;
+    margin-left: 60px;
+    text-align: left;
+}
+.title h3{
+    font-size: 30px;
+}
+.input{
+    padding: 50px 0px 20px 0px;
+}
+.input input{
+    width: 315px;
+    height: 35px;
+    background-color: rgba(128, 128, 128, 0.178);
+    border: rgba(128, 128, 128, 0.226);
+}
+.input input::placeholder{
+    padding-left: 10px;
+}
+.input button{
+    background-color: #396EB0;
+    height: 35px;
+    border: #396EB0;
+    color: white;
+    width: 150px;
+    margin-left: 30px;
+}
 /* SECTION 5 */
 
 .fostering, .primary-action {
     margin-top: 60px;
 }
-
+.content, .group{
+    display: flex;
+}
 /* SECTION 6 */
 .footer {
     display: flex;
